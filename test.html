@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+
+
+
+
+/* Float four columns side by side */
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row2 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+	</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Manizha Nizami</h3>
+      <p>Had the most great experience visiting this place.</p>
+      <p>the shoppers were very nice to us. The quality of these dresses are very good</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Muzhda Noorzad</h3>
+      <p>Best place to shop in whole Afghanistan</p>
+      <p>The prices are not that high. Great quality of clothes</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Sahar Khamoosh</h3>
+      <p>enjoyed visiting the shop</p>
+      <p>Great costumer experience. High qulity clothes. i would recommend to come and visit this shop</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Huma Rawan</h3>
+      <p>The salesWomen were very nice to us and guide us. Best shop ever</p>
+      <p>Low Price for high quality clothes. Definitely recommend going here</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
